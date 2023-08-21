@@ -18,6 +18,12 @@ export default makeStyles((theme: Theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: theme.palette.background.default,
   },
+  loansListTabs: {
+    '& .MuiButtonBase-root': {
+      fontSize: 12,
+      letterSpacing: 0.01,
+    },
+  },
   loansWarning: {
     marginBottom: theme.spacing(4),
     padding: theme.spacing(3),
